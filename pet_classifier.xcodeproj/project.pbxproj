@@ -11,6 +11,7 @@
 		D5ED52002C5FAC0E001D4550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED51FF2C5FAC0E001D4550 /* ContentView.swift */; };
 		D5ED52022C5FAC0F001D4550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5ED52012C5FAC0F001D4550 /* Assets.xcassets */; };
 		D5ED52052C5FAC0F001D4550 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5ED52042C5FAC0F001D4550 /* Preview Assets.xcassets */; };
+		D5ED520C2C5FAC4C001D4550 /* model_pet_classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D5ED520B2C5FAC4C001D4550 /* model_pet_classifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D5ED51FF2C5FAC0E001D4550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D5ED52012C5FAC0F001D4550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5ED52042C5FAC0F001D4550 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5ED520B2C5FAC4C001D4550 /* model_pet_classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = model_pet_classifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				D5ED51FF2C5FAC0E001D4550 /* ContentView.swift */,
 				D5ED52012C5FAC0F001D4550 /* Assets.xcassets */,
 				D5ED52032C5FAC0F001D4550 /* Preview Content */,
+				D5ED520B2C5FAC4C001D4550 /* model_pet_classifier.mlmodel */,
 			);
 			path = pet_classifier;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5ED520C2C5FAC4C001D4550 /* model_pet_classifier.mlmodel in Sources */,
 				D5ED52002C5FAC0E001D4550 /* ContentView.swift in Sources */,
 				D5ED51FE2C5FAC0E001D4550 /* pet_classifierApp.swift in Sources */,
 			);
@@ -275,6 +279,7 @@
 				DEVELOPMENT_TEAM = YR95F4NP7Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access photos to find pets";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +309,7 @@
 				DEVELOPMENT_TEAM = YR95F4NP7Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access photos to find pets";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
